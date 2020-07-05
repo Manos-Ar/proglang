@@ -16,3 +16,5 @@ fun reconstruct [] = []
 	 		else walk (xs, x, 0, ([x]::(y::ys)::acc))
 	 	in reverse (map reverse (walk (zs, z, 0, [[z]])))
 end
+
+(* reconstruct [3,1,2,3,1,4,2,5,6,0,4,7,8,9,10]*)

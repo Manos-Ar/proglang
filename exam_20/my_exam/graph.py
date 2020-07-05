@@ -3,7 +3,6 @@ import numpy as np
 
 def adjacency_list_to_incidence_matrix(adj_list):
 	node_count = len(adj_list)
-	print("length = " + str(len))
 	edge_count = sum(map(len, adj_list))
 	dimensions_of_matrix = (node_count,node_count)
 	inc_matrix = np.zeros(dimensions_of_matrix)
