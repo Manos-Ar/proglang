@@ -1,3 +1,3 @@
-# prolang 2018-2019
+# proglang 2018-2019
 
 Collaboration with https://github.com/giannis-k
